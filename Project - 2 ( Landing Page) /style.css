@@ -1,0 +1,224 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 570px;
+}
+.gradiant{
+    background: linear-gradient(45deg,#f6cf34,#e83ae8);
+}
+
+.socialMedia i {
+    margin-left: 10px;
+}
+
+.header{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.personalDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-envelope{
+    padding-left: 5px;
+}
+
+.personalDetails a{
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+}
+
+.button button{
+  height: 30px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  background: transparent;
+  padding: 5px;
+}
+
+.navbar{
+    height: 60px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    
+
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    padding: 16px;
+}
+
+.search input{
+    height: 30px;
+    padding: 5px;
+    border: none;
+}
+
+.searchButton{
+    height: 30px;
+    padding: 5px;
+    background: linear-gradient(45deg,#f6cf34,#e83ae8);
+    border: none;
+}
+
+.main{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pic{
+    object-fit: cover;
+    height: 600px;
+}
+
+.text{
+    padding: 15px;
+    color: rgb(67, 4, 4);
+    font-weight: 600;
+}
+
+.text h1{
+    margin-bottom: 60px
+    
+    
+}
+
+.click{
+    margin-top: 40px;
+}
+
+.first{
+    border: 2px solid rgb(88, 11, 11);
+    border-radius: 10px;
+    padding: 10px;
+    background: linear-gradient(45deg,#f6eaba,#fba5fb);
+    color: rgb(114, 19, 19);
+}
+
+.second{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background: linear-gradient(45deg,#f2e097,#f8aaf8);
+    color: rgb(114, 19, 19);
+}
+
+.first:hover{
+    background: linear-gradient(45deg,#f6cf34,#e83ae8);
+}
+
+.second:hover{
+    background: linear-gradient(45deg,#f6cf34,#e83ae8);
+}
+
+.addOnSection{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card1 p {
+    padding: 20px;
+}
+
+.card2 p {
+    padding: 20px;
+}
+
+.card3 p {
+    padding: 20px;
+}
+
+.main2{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image2 img{
+    height: 500px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.material h1{
+    margin-bottom: 20px;
+}
+
+.material h4{
+    margin-bottom: 20px;
+}
+
+.material p {
+    margin-bottom: 20px;
+}
+.material button{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(45deg,#f2e097,#f8aaf8);
+    color: rgb(114, 19, 19);
+}
+
+.material button:hover{
+    background: linear-gradient(45deg,#f6cf34,#e83ae8);
+}
+
+.bottom{
+    height: 400px;
+    width: 100%;
+}
+
+.cards{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.border{
+    border: 3px double black;
+    padding: 10px;
+}
+
+.hightadjustment{
+    height: 200px;
+}
+
+.cardsproperties{
+    padding: 10px;
+}
+
+.bottom h1{
+    font-size: 40px;
+    padding: 10px;  
+}
